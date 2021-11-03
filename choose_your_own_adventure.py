@@ -20,7 +20,7 @@ if answer == "left":
                   + "the troll.")
         elif win:
             item = input('The troll congratulates you on your win and offers you 3 items, '
-                         '+ which do you choose? gold/sword/medicine ').lower()
+                         'which do you choose? gold/sword/medicine ').lower()
             answer5 = input('You continue across the bridge and find a mountain, what do you do? '
                             ' climb it/go around/wait at the base ').lower()
 
@@ -102,10 +102,10 @@ if answer == "left":
             print('As you are swimming across, a crocodile appears and eats you whole. You are dead.')
         elif answer3 == 'walk along bank':
             answer4 = \
-                input('You come across an old man, he asks you to help him, what do you do? help him/refuse').lower()
+                input('You come across an old man, he asks you to help him, what do you do? help him/refuse ').lower()
             if answer4 == 'help him':
                 answer5 = input('The man asks you to deliver a letter to his daughter for him, what do you do '
-                                + 'agree/refuse')
+                                'agree/refuse ')
                 if answer5 == 'agree':
                     print('You accept the letter and leave the old man.')
                     letter = True
@@ -116,16 +116,16 @@ if answer == "left":
 
                 answer6 = input('You continue walking along the bank, You are confronted with a bandit, he asks for'
                                 + ' everything you have or he will kill you. What do you do? '
-                                + 'refuse/give in/fight back').lower()
-                if answer6 == 'refuse' or 'fight back':
+                                + 'refuse/give in/fight back ').lower()
+                if answer6 == 'refuse' or answer6 == 'fight back':
                     print('The bandit overpowers you and kills you. You are dead.')
                 elif answer6 == 'give in':
                     print('The bandit sees that you have nothing of value and lets you move along.')
                     answer7 = input('You continue walking and stumble upon a small cottage, what do you do?'
-                                    + ' knock/walk in/continue walking').lower()
+                                    + ' knock/walk in/continue walking ').lower()
                     if answer7 == 'continue walking':
                         answer8 = input('You continue walking and come across a castle the guard at the gate asks '
-                                        'your name, what do you do? give name/refuse').lower()
+                                        'your name, what do you do? give name/refuse ').lower()
                         if answer8 == 'give name':
                             print('The guard mistakes you for a known criminal in the area and kills you on the spot.')
                         elif answer8 == 'refuse':
@@ -135,11 +135,11 @@ if answer == "left":
                             print('Not a valid option. You lose.')
                     elif answer7 == 'knock':
                         answer8 = input("A beautiful woman answers the door and invites you in, what do you do? "
-                                        "go inside/refuse")
+                                        "go inside/refuse ")
                         if answer8 == 'refuse':
                             print('You turn from the house and continue walking.')
                             answer9 = input('You continue walking and come across a castle the guard at the gate asks '
-                                            'your name, what do you do? give name/refuse').lower()
+                                            'your name, what do you do? give name/refuse ').lower()
                             if answer9 == 'give name':
                                 print(
                                     'The guard mistakes you for a known criminal in the area and '
@@ -154,17 +154,17 @@ if answer == "left":
                                   'could be his daughter')
                             if letter:
                                 answer9 = input('You realize you have the letter, what do you do? give letter/'
-                                                'ignore it').lower()
+                                                'ignore it ').lower()
                                 if answer9 == 'give letter':
                                     answer10 = input('The woman begins to cry, she tells you that the letter explained '
                                                      'how kind you were to her father and that she should marry this '
                                                      'person if the letter ever reached her. What do you do? '
-                                                     'propose/leave').lower()
+                                                     'propose/leave ').lower()
                                     if answer10 == 'propose':
                                         answer11 = input('The woman then laughs in your face explaining that the '
                                                          'letter was not intended for her and refuses your proposal. '
                                                          'She then take a knife and demands you to hand over all of '
-                                                         'your belongings, what do you do? run/give in')
+                                                         'your belongings, what do you do? run/give in ')
                                         if answer11 == 'run':
                                             print('You try to escape but she throws the knife and it hits you in the '
                                                   'back of your neck. The woman stands over you as you bleed out. '
@@ -185,7 +185,7 @@ if answer == "left":
                                           'but think nothing of it. You then slowly begin to lose consciousness.')
                                     answer10 = input('You wake up to find yourself tied to a chair and the woman is '
                                                      'holding an axe. She then asks you if you know who the man was '
-                                                     'that gave you this letter, what do you say? no/yes').lower()
+                                                     'that gave you this letter, what do you say? no/yes ').lower()
                                     if answer10 == 'no':
                                         answer11 = input('She smiles, unties you and then asks you to marry her, '
                                                          'what do you do?'
@@ -209,7 +209,7 @@ if answer == "left":
                                 answer9 = input('You then forget about the letter and begin to really '
                                                 'enjoy the company of this'
                                                 ' woman. Within an hour you are ready to marry her, what do you do? '
-                                                'propose/leave').lower()
+                                                'propose/leave ').lower()
                                 if answer9 == 'propose':
                                     print('The woman laughs in your face and then gets visibly angry. You fear for '
                                           'your life but as you turn to leave you are struck with a brick. '
@@ -242,7 +242,7 @@ if answer == "left":
                                         'continue walking ').lower()
                         if answer7 == 'enter':
                             answer8 = input('Upon entering the forest you are greeted by a merchant who sees your giant'
-                                            ' gold coin and asks if you want to buy a sword. buy/refuse')
+                                            ' gold coin and asks if you want to buy a sword. buy/refuse ')
                             if answer8 == 'buy':
                                 answer9 = input('You purchase the sword and continue along your way '
                                                 'until you come across a '
